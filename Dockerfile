@@ -13,5 +13,5 @@ COPY . .
 # Khai báo port hệ thống
 EXPOSE 8000
 
-# LỆNH CHẠY CHUẨN: Gọi trực tiếp main:app từ thư mục src
-CMD ["uvicorn", "main:app", "--app-dir", "src", "--host", "0.0.0.0", "--port", "8000"]
+# LỆNH CHẠY CHUẨN: Gọi uvicorn định tuyến module iot_app từ thư mục src
+CMD ["uvicorn", "iot_app.main:app", "--app-dir", "src", "--host", "0.0.0.0", "--port", "8000"]
