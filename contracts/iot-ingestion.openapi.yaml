@@ -6,7 +6,7 @@ info:
     Contract dùng cho Lab 04 Docker packaging, được đồng bộ lại với logic Lab 03.
     Payload chính dùng các trường device_id, metric, value, unit và timestamp.
     Boundary minh họa cho temperature là -40 đến 80.
-  contact:
+ contact:
     name: Dinh Nam
     email: nam98989805@gmail.com
 servers:
