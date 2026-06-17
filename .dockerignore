@@ -1,0 +1,24 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Node (dùng cho Newman/Postman)
+node_modules/
+package-lock.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Reports / Logs
+reports/
+*.log
